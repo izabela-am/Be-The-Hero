@@ -6,7 +6,9 @@
         "start": "npm run backend/src/server.js",
         "test": "cross-env NODE_ENV=test jest"
     },
-    "dependencies": {},
+    "dependencies": {
+        "knex": "^0.20.13"
+    },
     "engines": {
         "node": "12.16.x"
     }
