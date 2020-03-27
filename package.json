@@ -2,6 +2,10 @@
     "name": "bethehero",
     "version": "0.1.0",
     "description": "Be the hero. Save the day.",
+    "scripts": {
+        "start": "nodemon backend/src/server.js",
+        "test": "cross-env NODE_ENV=test jest"
+      },
     "dependencies": {
     },
     "engines": {
