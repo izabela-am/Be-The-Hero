@@ -25,14 +25,15 @@ export default function Profile() {
     }, [ongId])
 
     async function handleDeleteIncident(id) {
-        try{   
+        try{
             await api.delete(`incidents/${id}`, {
                 headers: {
                     Authorization: ongId
                 }
             })
-        
+
         setIncidents(incidents.filter(incident => incident.id !== id))
+
         } catch(err) {
             alert('Erro ao deletar caso')
         }
