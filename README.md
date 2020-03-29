@@ -4,6 +4,10 @@
   <br><br>
 </p>
 
+## See it live!
+- Get access to the Web version of the app [HERE](https://bethehero-app.netlify.com)
+- The mobile version isn't available yet, but I'm working on it :smile:
+
 ## :books: Project Stack:
 - Node.js (+Express)
 - React
