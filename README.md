@@ -4,8 +4,21 @@
   <br><br>
 </p>
 
-## See it live!
-- The mobile version isn't available yet, but I'm working on it :smile:
+## See it working:
+- Clone this repository, go to the project directory and then run:  
+
+  - backend setup:
+  ```shell
+  - cd backend
+  - npm install
+  - npm start
+  ```
+  - frontend setup: 
+  ```shell
+  - cd frontend
+  - npm install
+  - npm start
+  ```
 
 ## :books: Project Stack:
 - Node.js (+Express)
